@@ -8,7 +8,7 @@ const db = require("./models");
 
 const app = express();
 const PORT = process.env.port || 3000;
-const host = process.env.HOST;
+
 
 app.use(logger("dev"));
 
