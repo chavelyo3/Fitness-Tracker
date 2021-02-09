@@ -6,11 +6,9 @@ const path = require("path");
 
 const db = require("./models");
 
-
 const app = express();
-const PORT = process.env.port || 3000; 
+const PORT = process.env.port || 3000;
 const host = process.env.HOST;
-
 
 app.use(logger("dev"));
 
@@ -19,22 +17,19 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/workout',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+});
 
-// routes 
+// routes
 require("./routes/htmlRoutes.js")(app);
 require("./routes/Api.js")(app);
 
-app.listen(PORT, () =>{
-    console.log(`App running on port ${PORT}!`);
+app.listen(PORT, () => {
+  console.log(`App running on port ${PORT}!`);
 });
 
-module.exports= app;
+module.exports = app;
