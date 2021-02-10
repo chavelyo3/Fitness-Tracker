@@ -16,9 +16,9 @@
 
 ## Screenshot
 
-View live through Heroku [here](https://infinite-spire-28991.herokuapp.com/).
-![demo](https://github.com/chavelyo3/Fitness-Tracker/blob/main/public/img/Fitness%20Tracker.gif?raw=true)
 
+![demo](https://github.com/chavelyo3/Fitness-Tracker/blob/main/public/img/Fitness%20Tracker.gif?raw=true)
+View live through Heroku [here](https://infinite-spire-28991.herokuapp.com/).
 
 
 # Questions
