@@ -1,4 +1,3 @@
-const express = require("express");
 const { Workout } = require("../models");
 
 module.exports = function (app) {
@@ -8,8 +7,7 @@ module.exports = function (app) {
         res.json(data);
       })
       .catch((err) => {
-        console.log(err);
-        res.json(404);
+        res.json(err);
       });
   });
   app.get("/api/workouts/range", (req, res) => {
@@ -18,8 +16,7 @@ module.exports = function (app) {
         res.json(data);
       })
       .catch((err) => {
-        console.log(err);
-        res.json(404);
+        res.json(err);
       });
   });
   app.post("/api/workouts", (req, res) => {
@@ -28,8 +25,7 @@ module.exports = function (app) {
         res.json(data);
       })
       .catch((err) => {
-        console.log(err);
-        res.json(404);
+        res.json(err);
       });
   });
   app.put("/api/workouts/:id", (req, res) => {
@@ -44,8 +40,7 @@ module.exports = function (app) {
         res.json(data);
       })
       .catch((err) => {
-        console.log(err);
-        res.json(404);
+        res.json(err);
       });
   });
 };
