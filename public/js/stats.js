@@ -14,6 +14,7 @@ function generatePalette() {
   const arr = [
     "#edbe15",
     "#ff00f2",
+    "#00fa64",
     "#665191",
     "#a05195",
     "#d45087",
@@ -35,7 +36,6 @@ function generatePalette() {
     "#f5f247",
     "#476ce6",
     "#f7d859",
-    "#00fa64",
     "#1fccb8",
 
 
