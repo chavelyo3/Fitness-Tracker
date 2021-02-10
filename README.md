@@ -2,17 +2,14 @@
 
 # Table of Contents
 
- * [Description](#Description)
+  * [Description](#Description)
+  * [Screenshot](#Screenshot)
   * [Installation](#Installation)
   * [Usage](#Usage)
-  * [Screenshot](#Screenshot)
+  * [Technologies](#Technologies)
   * [Questions](#Questions)
 
 # Description
-
-# Installation
-
-# Usage
 
 ## Screenshot
 
@@ -21,4 +18,20 @@
 View live through Heroku [here](https://infinite-spire-28991.herokuapp.com/).
 
 
+# Installation
+This application is deployed and hosted on [Heroku](https://infinite-spire-28991.herokuapp.com/). No installation is needed for use. 
+
+# Usage
+This Application can be used by those who want to keep track of their workouts and view their stats throughout their fitness journey. 
+
+# Technologies
+technologies used 
+* HTML 
+* CSS 
+* JavaScript
+* API 
+* Mongo DB
+
+
 # Questions
+Have any questions? Contact me by email Roxette.Banos@gmail.com
