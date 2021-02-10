@@ -22,6 +22,10 @@ function generatePalette() {
     "#ffa600",
     "#15edd7",
     "#a19cf0",
+    "#f7d859",
+    "#48ff45",
+    "#00fa64",
+    "#1fccb8",
     "#f23a96",
     "#f2a04e",
     "#e31b47",
@@ -33,10 +37,7 @@ function generatePalette() {
     "#f78fab",
     "#f5f247",
     "#476ce6",
-    "#f7d859",
-    "#48ff45",
-    "#00fa64",
-    "#1fccb8",
+    
 
 
   ];
