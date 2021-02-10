@@ -264,7 +264,7 @@ button {
 #toast.success {
   right: 10px;
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color: hsl(192, 60%, 50%);
   transition: all 0.5s;
 }
 .workout-type,
@@ -322,7 +322,7 @@ button {
 
 #toast.success {
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color: hsl(249, 51%, 55%);
   animation-name: toast;
   animation-duration: 2s;
   animation-fill-mode: forwards;

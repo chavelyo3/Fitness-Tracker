@@ -7,7 +7,7 @@ const path = require("path");
 const db = require("./models");
 
 const app = express();
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 
 app.use(logger("dev"));
@@ -33,6 +33,7 @@ require("./routes/Api.js")(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
+  console.log(process.env.MONGODB_URI)
 });
 
 module.exports = app;
