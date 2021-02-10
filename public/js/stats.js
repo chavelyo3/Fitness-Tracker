@@ -19,16 +19,20 @@ function generatePalette() {
     "#d45087",
     "#f95d6a",
     "#ff7c43",
-    "ffa600",
+    "#ffa600",
     "#15edd7",
     "#a19cf0",
     "#f23a96",
     "#f2a04e",
     "#d45087",
     "#f95d6a",
-    "#ff7c43",
+    "#ff4d00",
     "ffa600",
     "#9edb8a",
+    "#3e1c8a",
+    "#f78fab",
+    "#f5f247",
+
   ];
 
   return arr;
