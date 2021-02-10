@@ -33,6 +33,11 @@ function generatePalette() {
     "#f78fab",
     "#f5f247",
     "#476ce6",
+    "#f7d859",
+    "#48ff45",
+    "#00fa64",
+    "#1fccb8",
+
 
   ];
 
