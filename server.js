@@ -33,7 +33,7 @@ require("./routes/Api.js")(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
-  console.log(process.env.MONGODB_URI)
+  
 });
 
 module.exports = app;
