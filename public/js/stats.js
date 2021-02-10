@@ -28,6 +28,7 @@ function generatePalette() {
     "#f95d6a",
     "#ff7c43",
     "ffa600",
+    "#9edb8a",
   ];
 
   return arr;
