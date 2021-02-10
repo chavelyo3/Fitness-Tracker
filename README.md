@@ -1,4 +1,4 @@
-# Fitness Tracker
+# Fitness Tracker 
 
 # Table of Contents
 
@@ -10,6 +10,7 @@
   * [Questions](#Questions)
 
 # Description
+A quick and simple application that lets users add and save their exercises. With a history of workouts (Cardio or Resistance) users can then view saved data in the dashboard, which displays their stats. Stats are shown in an easy to read and colored chart. 
 
 ## Screenshot
 
@@ -25,7 +26,7 @@ This application is deployed and hosted on [Heroku](https://infinite-spire-28991
 This Application can be used by those who want to keep track of their workouts and view their stats throughout their fitness journey. 
 
 # Technologies
-technologies used 
+technologies used:
 * HTML 
 * CSS 
 * JavaScript
